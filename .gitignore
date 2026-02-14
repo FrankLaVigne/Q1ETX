@@ -16,6 +16,9 @@ venv/
 # ML Models (large files)
 **/models/
 
+# Vector DB
+chroma_db/
+
 # IDE
 .vscode/
 .idea/
