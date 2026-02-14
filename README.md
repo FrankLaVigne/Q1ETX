@@ -10,6 +10,7 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 | `03/` | Document Ingestion | Convert PDF documents to Markdown using [Docling](https://github.com/DS4SD/docling) |
 | `04/` | Retrieval (RAG) | Chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
 | `05/` | Evaluation | Compare baseline vs. RAG answers using manual review and automated LLM-as-judge scoring |
+| `06/` | Production Pipeline | Scale ingestion to multiple documents with source attribution and corpus-level evaluation |
 
 ## Getting Started
 
@@ -52,5 +53,6 @@ q1labs/
 ├── 02/                # Section 2 — Setup & Baseline
 ├── 03/                # Section 3 — Document Ingestion
 ├── 04/                # Section 4 — Retrieval (RAG)
-└── 05/                # Section 5 — Evaluation
+├── 05/                # Section 5 — Evaluation
+└── 06/                # Section 6 — Production Pipeline
 ```
