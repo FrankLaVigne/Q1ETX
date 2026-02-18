@@ -23,6 +23,9 @@ chroma_db/
 .vscode/
 .idea/
 
+# Generated files
+03/Basic-Fantasy-RPG-Rules-r142.md
+
 # OS
 .DS_Store
 Thumbs.db
