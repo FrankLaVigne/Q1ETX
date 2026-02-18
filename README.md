@@ -8,7 +8,7 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 |---------|-------|-------------|
 | `02/` | Setup & Baseline | Configure API access, test model connectivity, and establish baseline responses to reveal knowledge gaps |
 | `03/` | Document Ingestion | Convert PDF documents to Markdown using [Docling](https://github.com/DS4SD/docling) |
-| `04/` | Retrieval (RAG) | Chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
+| `04/` | Tokens, Context & RAG | Token counting, context window management, chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
 | `05/` | Evaluation | Compare baseline vs. RAG answers using manual review and automated LLM-as-judge scoring |
 | `06/` | Production Pipeline | Scale ingestion to multiple documents with source attribution and corpus-level evaluation |
 
@@ -44,15 +44,15 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 ## Project Layout
 
 ```
-q1labs/
+Q1ETX/
 ├── config.py          # Loads .env and exposes API_KEY / ENDPOINT_BASE
 ├── .env               # API credentials (not tracked in git)
-├── docs/              # Source documents (PDFs)
+├── docs/              # Source documents (PDFs, including 3rd Edition variants)
 ├── models/            # Pre-downloaded embedding models (e.g. granite-embedding-30m-english)
-├── utils/             # Utility notebooks
+├── utils/             # Utility notebooks (e.g. GPU diagnostics)
 ├── 02/                # Section 2 — Setup & Baseline
 ├── 03/                # Section 3 — Document Ingestion
-├── 04/                # Section 4 — Retrieval (RAG)
+├── 04/                # Section 4 — Tokens, Context & RAG
 ├── 05/                # Section 5 — Evaluation
 └── 06/                # Section 6 — Production Pipeline
 ```
