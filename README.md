@@ -1,4 +1,4 @@
-# Q1 Labs — RAG Workshop with IBM Granite
+# Connecting Models to Data: A Practical Workshop on Ingestion, RAG, and Evaluation
 
 A hands-on workshop series that walks through building a Retrieval-Augmented Generation (RAG) pipeline using IBM Granite models. Uses the [Basic Fantasy RPG](https://www.basicfantasy.org/) rulebook as a real-world test document to demonstrate how grounding LLMs with retrieved context dramatically improves answer quality.
 
