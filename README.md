@@ -11,6 +11,7 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 | `04/` | Tokens, Context & RAG | Token counting, context window management, chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
 | `05/` | Evaluation | Compare baseline vs. RAG answers using manual review and automated LLM-as-judge scoring |
 | `06/` | Production Pipeline | Scale ingestion to multiple documents with source attribution and corpus-level evaluation |
+| `07/` | Conclusion | Earning the right to escalate to fine-tuning — diagnosing failures, synthetic data, and field positioning |
 
 ## Getting Started
 
@@ -54,5 +55,6 @@ Q1ETX/
 ├── 03/                # Section 3 — Document Ingestion
 ├── 04/                # Section 4 — Tokens, Context & RAG
 ├── 05/                # Section 5 — Evaluation
-└── 06/                # Section 6 — Production Pipeline
+├── 06/                # Section 6 — Production Pipeline
+└── 07/                # Section 7 — Conclusion
 ```
