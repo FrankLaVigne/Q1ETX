@@ -7,6 +7,7 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 | Section | Topic | Description |
 |---------|-------|-------------|
 | `00Setup/` | Orientation & Guardrails | Establish scope, intent, and behavioral expectations — set the mental model before touching code |
+| `01CustomerScenario/` | Customer Scenario | Frame the workshop around a realistic customer engagement scenario |
 | `02Baseline/` | Setup & Baseline | Configure API access, test model connectivity, and establish baseline responses to reveal knowledge gaps |
 | `03Ingestion/` | Document Ingestion | Convert PDF documents to Markdown using [Docling](https://github.com/DS4SD/docling) |
 | `04RAG/` | Tokens, Context & RAG | Token counting, context window management, chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
@@ -53,6 +54,7 @@ Q1ETX/
 ├── models/            # Pre-downloaded embedding models (e.g. granite-embedding-30m-english)
 ├── utils/             # Utility notebooks (e.g. GPU diagnostics)
 ├── 00Setup/           # Section 0 — Orientation & Guardrails
+├── 01CustomerScenario/ # Section 1 — Customer Scenario
 ├── 02Baseline/        # Section 2 — Setup & Baseline
 ├── 03Ingestion/       # Section 3 — Document Ingestion
 ├── 04RAG/             # Section 4 — Tokens, Context & RAG
