@@ -6,12 +6,12 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 
 | Section | Topic | Description |
 |---------|-------|-------------|
-| `02/` | Setup & Baseline | Configure API access, test model connectivity, and establish baseline responses to reveal knowledge gaps |
-| `03/` | Document Ingestion | Convert PDF documents to Markdown using [Docling](https://github.com/DS4SD/docling) |
-| `04/` | Tokens, Context & RAG | Token counting, context window management, chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
-| `05/` | Evaluation | Compare baseline vs. RAG answers using manual review and automated LLM-as-judge scoring |
-| `06/` | Production Pipeline | Scale ingestion to multiple documents with source attribution and corpus-level evaluation |
-| `07/` | Conclusion | Earning the right to escalate to fine-tuning — diagnosing failures, synthetic data, and field positioning |
+| `02Baseline/` | Setup & Baseline | Configure API access, test model connectivity, and establish baseline responses to reveal knowledge gaps |
+| `03Ingestion/` | Document Ingestion | Convert PDF documents to Markdown using [Docling](https://github.com/DS4SD/docling) |
+| `04RAG/` | Tokens, Context & RAG | Token counting, context window management, chunking strategies, embeddings with Granite Embedding, vector search with ChromaDB, and full RAG pipeline |
+| `05Evaluation/` | Evaluation | Compare baseline vs. RAG answers using manual review and automated LLM-as-judge scoring |
+| `06Scaling/` | Production Pipeline | Scale ingestion to multiple documents with source attribution and corpus-level evaluation |
+| `07Escalation/` | Conclusion | Earning the right to escalate to fine-tuning — diagnosing failures, synthetic data, and field positioning |
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ A hands-on workshop series that walks through building a Retrieval-Augmented Gen
 
 2. Install dependencies within the notebooks as needed (each notebook installs its own requirements).
 
-3. Work through the notebooks in order, starting with `02/01_SetupAndModelTest.ipynb`.
+3. Work through the notebooks in order, starting with `02Baseline/01_SetupAndModelTest.ipynb`.
 
 ## Key Technologies
 
@@ -51,10 +51,10 @@ Q1ETX/
 ├── docs/              # Source documents (PDFs, including 3rd Edition variants)
 ├── models/            # Pre-downloaded embedding models (e.g. granite-embedding-30m-english)
 ├── utils/             # Utility notebooks (e.g. GPU diagnostics)
-├── 02/                # Section 2 — Setup & Baseline
-├── 03/                # Section 3 — Document Ingestion
-├── 04/                # Section 4 — Tokens, Context & RAG
-├── 05/                # Section 5 — Evaluation
-├── 06/                # Section 6 — Production Pipeline
-└── 07/                # Section 7 — Conclusion
+├── 02Baseline/        # Section 2 — Setup & Baseline
+├── 03Ingestion/       # Section 3 — Document Ingestion
+├── 04RAG/             # Section 4 — Tokens, Context & RAG
+├── 05Evaluation/      # Section 5 — Evaluation
+├── 06Scaling/         # Section 6 — Production Pipeline
+└── 07Escalation/      # Section 7 — Conclusion
 ```
